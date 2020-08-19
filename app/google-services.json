@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "316632380564",
+    "firebase_url": "https://peephouse-f072b.firebaseio.com",
+    "project_id": "peephouse-f072b",
+    "storage_bucket": "peephouse-f072b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316632380564:android:7b968815cc60a4caa8f081",
+        "android_client_info": {
+          "package_name": "com.exten.peephouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316632380564-sd32gv5ipsusj487hscecdvv9m4ao9r1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exten.peephouse",
+            "certificate_hash": "751e7d5310523ee52690ef22faac956d32a4bbbb"
+          }
+        },
+        {
+          "client_id": "316632380564-8vl3leqegn2885riodfhr768u5v1pbs5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUfvvpPZikqQN8KxuMR3gA17ntEG452E0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316632380564-8vl3leqegn2885riodfhr768u5v1pbs5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

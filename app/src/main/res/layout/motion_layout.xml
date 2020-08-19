@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/motion_layout_scene">
+
+    <View
+        android:id="@+id/yay_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorYay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".5" />
+
+    <View
+        android:id="@+id/nay_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorNay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/teeth"
+        android:layout_width="wrap_content"
+        android:layout_height="1000dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/tooth"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth2"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth4"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth3"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth6"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth7"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth8"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth9"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth10"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth11"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth12"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth84"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth85"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth86"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth87"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth88"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth89"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth90"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth91"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth92"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth93"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth94"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth95"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth96"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth97"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth13"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth14"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth15"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth16"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth17"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth18"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth19"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth20"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth21"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth22"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth23"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth24"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth25"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth26"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth27"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth28"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth29"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth30"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth31"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth32"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth33"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth34"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth35"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth36"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth37"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth38"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth39"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth40"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth41"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth42"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth43"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth44"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth45"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth46"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth47"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth48"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth49"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth50"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth51"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth52"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth53"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth54"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth55"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth56"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth57"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth58"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth59"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth60"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth61"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth62"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth63"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth64"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth65"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth66"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth67"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth68"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth69"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth70"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth71"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth72"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth73"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth74"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth75"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth76"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth77"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth78"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth79"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth80"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth81"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth82"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+
+        <View
+            android:id="@+id/tooth83"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorYay" />
+    </LinearLayout>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
